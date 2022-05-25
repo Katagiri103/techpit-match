@@ -46,7 +46,7 @@
         </div>
       </div>
       <div class="form-group">
-        <label>自己紹介文</label>
+        <label>自己紹介？？</label>
         <textarea class="form-control" name="self_introduction" rows="10">{{$user->self_introduction}}
         </textarea>
         </div>  
