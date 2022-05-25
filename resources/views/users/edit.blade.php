@@ -35,7 +35,7 @@
         <input type="email" name="email" class="form-control" value="{{ $user->email }}">
       </div>
       <div class="form-group">
-        <div><label>性別</label></div>
+        <div><label>雄雌</label></div>
         <div class="form-check form-check-inline">
           <input class="form-check-input" name="sex" value="0" type="radio" id="inlineRadio1" @if($user->sex === 0) checked @endif>
           <label class="form-check-label" for="inlineRadio1">男</label>
