@@ -54,7 +54,7 @@
         <input type="password" name="password_confirmation" class="form-control" placeholder="パスワードを再度入力してください">
       </div>
       <div class="form-group">
-        <div><label>性別</label></div>
+        <div><label>あああ</label></div>
         <div class="form-check form-check-inline">
           <input class="form-check-input" name="sex" value="0" type="radio" id="inlineRadio1" checked>
           <label class="form-check-label" for="inlineRadio1">男</label>
