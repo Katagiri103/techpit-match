@@ -13,7 +13,7 @@ use Intervention\Image\Facades\Image; //ここを追記
 use App\Services\CheckExtensionServices;
 use App\Services\FileUploadServices; //追跡
 //use App\public\storage\images;
-use Storage;
+use Illuminate\Support\Facades\Storage;
 
 class RegisterController extends Controller
 {
@@ -84,7 +84,7 @@ class RegisterController extends Controller
         
         $image->resize(400,400); //->save(storage_path() . "/app/public/images/" .  $fileNameToStore );
         //追記
-        Storage::put("/storage/app/public/images/", $image);
+        Storage::put("\public\images/".$fileNameToStore , $image);
 
         return User::create([
             'name' => $data['name'],
