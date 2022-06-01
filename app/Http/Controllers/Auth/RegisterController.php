@@ -12,7 +12,7 @@ use Illuminate\Support\Facades\Validator;
 use Intervention\Image\Facades\Image; //ここを追記
 use App\Services\CheckExtensionServices;
 use App\Services\FileUploadServices; //追跡
-use App\public\storage\images;
+//use App\public\storage\images;
 
 class RegisterController extends Controller
 {
