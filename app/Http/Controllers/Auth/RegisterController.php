@@ -82,7 +82,7 @@ class RegisterController extends Controller
         
         $image = Image::make($data_url);
         
-        $image->resize(400,400); //->save(storage_path() . "/app/public/images/" .  $fileNameToStore );
+        $image = $image->resize(400,400); //->save(storage_path() . "/app/public/images/" .  $fileNameToStore );
         //追記
         Storage::put("\public\images/".$fileNameToStore , $image);
 
