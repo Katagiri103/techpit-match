@@ -38,4 +38,5 @@ window.Echo = new Echo({
    key: 'e30a70a1908b17b30e3d',
    cluster: 'ap3',
    encrypted: true
+   
 });
